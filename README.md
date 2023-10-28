@@ -1,6 +1,10 @@
 # Dynamic SQL to GraphQl
 Implementation of a dynamic GraphQl server. The aim of the project is to dynamically retrieve the schema and data of a source db, regenerate it in a new SQL-Server instance and expose it as a GraphQl API.
 
+* On startup of the application, a background service will retrieve the source db and clone it into the GraphQl db. 
+* From this database it will generate a schema, expose the schema on an endpoint and expose the data on a seperate endpoint.
+* If any updates have been made to the schema/ data, the background agent will find these updates at intervals specified in the configuration and will update the schema and data.
+
 ## IMPORTANT NOTE - This project is currently in development and will not yet have full functionality
 
 # Useful things to note
@@ -16,12 +20,6 @@ For use of the project, please create an appsettings.development.json file and p
     docker-compose up
 ```
 3. Run the DynamicSqlToGraphQl.API project and Swagger will pop up where you can use the GraphQl API.
-
-# How the project will work
-
-* On startup of the application, a background service will retrieve the source db and clone it into the GraphQl db. 
-* From this database it will generate a schema, expose the schema on an endpoint and expose the data on a seperate endpoint.
-* If any updates have been made to the schema/ data, the background agent will find these updates at intervals specified in the configuration and will update the schema and data.
 
 
 # Project versioning - This project will be implemented in these specific versions.
