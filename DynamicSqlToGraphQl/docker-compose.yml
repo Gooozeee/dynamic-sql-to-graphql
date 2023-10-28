@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  sourcedb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+
+  graphqldb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+
+ 
+  # Currently commented out until development will finish
+
+  #dynamicsqltographql.api:
+  #  image: ${DOCKER_REGISTRY-}dynamicsqltographqlapi
+  #  build:
+  #    context: .
+  #    dockerfile: Dockerfile
