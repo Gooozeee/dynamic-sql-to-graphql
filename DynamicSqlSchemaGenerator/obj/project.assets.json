@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project with Patrick\\dynamic-sql-to-graphql\\DynamicSqlSchemaGenerator\\DynamicSqlSchemaGenerator.csproj",
-      "projectName": "DynamicSqlSchemaGenerator",
-      "projectPath": "D:\\Project with Patrick\\dynamic-sql-to-graphql\\DynamicSqlSchemaGenerator\\DynamicSqlSchemaGenerator.csproj",
+      "projectUniqueName": "D:\\Project with Patrick\\dynamic-sql-to-graphql\\DynamicSqlSchemaGenerator\\DynamicSqlToGraphQl.Utilities.csproj",
+      "projectName": "DynamicSqlToGraphQl.Utilities",
+      "projectPath": "D:\\Project with Patrick\\dynamic-sql-to-graphql\\DynamicSqlSchemaGenerator\\DynamicSqlToGraphQl.Utilities.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
       "outputPath": "D:\\Project with Patrick\\dynamic-sql-to-graphql\\DynamicSqlSchemaGenerator\\obj\\",
       "projectStyle": "PackageReference",

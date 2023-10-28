@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicSqlToGraphQl", "DynamicSqlToGraphQl.csproj", "{886A7447-C79E-4792-A398-4F10F465EC5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicSqlToGraphQl.API", "DynamicSqlToGraphQl.API.csproj", "{82A01775-6BDB-45E0-AB33-05619065E5AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicSqlToGraphQl.Utilities", "..\DynamicSqlSchemaGenerator\DynamicSqlToGraphQl.Utilities.csproj", "{61EBE78C-D46B-444C-88B4-810FE1E51700}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicSqlToGraphQl.Application", "..\DynamicSqlToGraphQl.Application\DynamicSqlToGraphQl.Application.csproj", "{0A67834D-841A-4C80-BBBA-E762170FA1D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicSqlToGraphQl.Domain", "..\DynamicSqlToGraphQl.Domain\DynamicSqlToGraphQl.Domain.csproj", "{BE6DF45E-17E6-4B44-ADC9-78398B3D7006}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicSqlToGraphQl.Tests", "..\DynamicSqlToGraphQl.Tests\DynamicSqlToGraphQl.Tests.csproj", "{0BF0B019-6D7D-45DC-9FA1-6DA6D40F5D39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{886A7447-C79E-4792-A398-4F10F465EC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{886A7447-C79E-4792-A398-4F10F465EC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{886A7447-C79E-4792-A398-4F10F465EC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{886A7447-C79E-4792-A398-4F10F465EC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A01775-6BDB-45E0-AB33-05619065E5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A01775-6BDB-45E0-AB33-05619065E5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A01775-6BDB-45E0-AB33-05619065E5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A01775-6BDB-45E0-AB33-05619065E5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61EBE78C-D46B-444C-88B4-810FE1E51700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61EBE78C-D46B-444C-88B4-810FE1E51700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61EBE78C-D46B-444C-88B4-810FE1E51700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61EBE78C-D46B-444C-88B4-810FE1E51700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A67834D-841A-4C80-BBBA-E762170FA1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A67834D-841A-4C80-BBBA-E762170FA1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A67834D-841A-4C80-BBBA-E762170FA1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A67834D-841A-4C80-BBBA-E762170FA1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6DF45E-17E6-4B44-ADC9-78398B3D7006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6DF45E-17E6-4B44-ADC9-78398B3D7006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6DF45E-17E6-4B44-ADC9-78398B3D7006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6DF45E-17E6-4B44-ADC9-78398B3D7006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF0B019-6D7D-45DC-9FA1-6DA6D40F5D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF0B019-6D7D-45DC-9FA1-6DA6D40F5D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF0B019-6D7D-45DC-9FA1-6DA6D40F5D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF0B019-6D7D-45DC-9FA1-6DA6D40F5D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
